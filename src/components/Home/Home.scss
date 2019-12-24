@@ -1,0 +1,16 @@
+.homePageLayout {
+    height: 100vh;
+    background: pink;
+    .bodyLayout {
+        display: flex;
+        .navLayout {
+            width: 20%;
+            background: red;
+            text-transform: capitalize;
+        }
+        .sectionLayout {
+            width: 80%;
+            background: green;
+        }
+    }
+}
